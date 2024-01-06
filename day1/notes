@@ -1,0 +1,49 @@
+Internet: Internet is the largest computer network(network of network) or interconnection of computers all around the world.
+
+Server: A server is a high priviliged computer which holds all the data,information and resources in a network and responsible for
+responding to the requests of client computers to gives access to the data,information and resources to the client computers. A server
+is always(24x7) online.
+
+Clinet: A Clinet is a low priviliged computer in a computer network which requests for the resources, data and information which is 
+available on the server.
+
+IP Address: An IP Address is an unique address given to all the devices/computers that are connected to the internet so that we can
+which device is requesting which data and which device is responding to that request.
+
+DNS(Domain Name System): A DNS is an addressbook of internet which holds all the ip address of all the websites and resources online. DNS is used to resolve the ip address of websites and resources online to a domain name which is human understandable as 
+the IP Address only contains numbers(12.44.566.11) which is hard to remember.
+
+What is Web Development?
+    It's a process of creating websites for the internet. 
+    web development have two main end:
+        - frontend: client side, user interaction (.html,.css,.js)
+        - backend:  backend side, internal functionalities(php,python,javascript)
+
+        frontend+backend=fullstack
+HTML(HYPER TEXT MARKUP LANGUAGE):
+    -markup langauge used for desing documents that are displayed on the internet 
+    -set rules for browsers to format and structure documents
+    -used to create webpages
+
+HTML Elements:
+    -standard elements that browser recognizes 
+    -components used to design strucuture of websites are called HTML tags
+    -html tags comes inside angular brackets <>
+    -opening and closing tags
+    -opening tags have only <>
+    -closing tags have forward slash in it</>
+    -example <p>paragraph</p>
+    - above <p></p> is element & paragraph is content
+
+    1. paragraph tag 
+        -used to display content in paragraph format
+        -creates new lines in every new paragram tag
+        - <p>sss</p>
+        - ignores extra spaces and new lines inside the single paragraph tag 
+    2. Heading tag
+        - the heading tag is collection of total 6 levels of section of heading from <h1> to <h6> which varies in the text size 
+        -<h1> is the largest size 
+        -<h6> is the sammlest size 
+    3. Boilerplate HTML
+        - standard format or skeleton of writing HTML code
+        - '!' shortcut is used to generate the boilerplate in vs code 
