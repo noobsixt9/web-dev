@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+</head>
+<body>
+    <center>
+        <h1>
+            <U>WELCOME TO SIGNUP PAGE</U>
+        </h1>
+    </center>
+    <form action="/submit">
+        <div>
+            <label for="uname">Full Name : </label>
+            <input type="text" name="fname" id="fname" placeholder="First Name">
+            <input type="text" name="lname" id="lname" placeholder="Last Name">
+        </div>
+        <br>
+        <div>
+            <label for="add">Address: </label>
+            <input type="text" id="add" name="add" placeholder="Dhangadhi">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="rajanrajan@example.com">
+        </div>
+        <br>
+        <div>
+            <label for="uname">Username: </label>
+            <input type="text" id="uname" name="uname" placeholder="Username">
+        </div>
+        <br>
+        <div>
+            <label for="pwd">Password: </label>
+            <input type="password" id="pwd" name="pwd" placeholder="Password">
+        </div>
+        <br>
+        <div>
+            <label for="stud">Student</label>
+            <input type="checkbox" name="stud" id="stud" checked>
+            <label for="emp">Employee</label>
+            <input type="checkbox" name="emp" id="emp">
+        </div>
+        <br>
+        <div>
+                <select name="course" id="course">
+                    <option>Select Course</option>
+                    <option value="BCA" >BCA</option>
+                    <option value="BIT">BIT</option>  
+                    <option value="comp">Computer Engneering</option>                  
+                </select>
+        </div>
+        <br>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="others">Others</label>
+            <input type="radio" name="gender" id="others" value="others">
+            
+        </div>
+        <div>
+            <label for="consent">Do you agree to accept all the terms and conditions? Yes, I agree</label>
+            <input type="checkbox" id="consent" name="consent" checked>
+        </div>
+        <br>
+        <label id="about"></label>
+        <textarea id="about" name="about" placeholder="About"></textarea>
+        <br>
+        <button type="submit">SIGNUP</button>
+    </form>
+</body>
+</html>
