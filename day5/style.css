@@ -1,0 +1,42 @@
+h1
+{
+    
+    text-align: center;    /* aligns the text in the center relatively to the element */
+    font-family: Arial, Helvetica, sans-serif; /* font family is set to arial */
+    color: #ffa511; /* foreground color(text color) is set to #ffa511 where rgb value is rgb(ff,a5,11) */
+    font-weight: 300; /* normal bold size of the element normal = 400 */
+    text-decoration: red underline double; /* text decoration (underline) in dotted shaped and red color  */
+    letter-spacing: 1px; /* the space between letters is set to 1px and 1 inch = 96 px  */
+    background-color: black;
+    text-transform: uppercase;
+
+}
+
+h2
+{
+    
+    text-align: start;    /* aligns the text in the center relatively to the element */
+    font-family: 'Times New Roman', Times, serif; /* font family is set to arial */
+    color: white; /* foreground color(text color) is set to #ffa511 where rgb value is rgb(ff,a5,11) */
+    font-weight: 200; /* normal bold size of the element normal = 400 */
+    text-decoration:underline; /* text decoration (underline) in dotted shaped and red color  */
+    letter-spacing: 1px; /* the space between letters is set to 1px and 1 inch = 96 px  */
+    background-color: lightblue;
+
+}
+p
+{
+    
+    text-align: start;    /* aligns the text in the center relatively to the element */
+    font-family: sans-serif; /* font family is set to arial */
+    color: black; /* foreground color(text color) is set to #ffa511 where rgb value is rgb(ff,a5,11) */
+    font-weight: 300; /* normal bold size of the element normal = 400 */
+    text-decoration: none; /* text decoration (underline) in dotted shaped and red color  */
+    letter-spacing: 1px; /* the space between letters is set to 1px and 1 inch = 96 px  */
+    line-height: normal;
+
+}
+a
+{
+    text-decoration: none; /* removed underline from anchor tag */
+}
